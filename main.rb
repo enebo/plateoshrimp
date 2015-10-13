@@ -76,7 +76,7 @@ class Build
   end
 end
 
-Build.new.swarm_version("1.0.0.Alpha4")
+Build.new.swarm_version("1.0.0.Alpha5-SNAPSHOT")
                 .source("target/swarmjr-0.1-SNAPSHOT.jar")
                 .deps(["compile", "org.jruby", "jruby-complete", ->{ "9.0.1.0"}, "jar"])
                 .swarm_deps("undertow")

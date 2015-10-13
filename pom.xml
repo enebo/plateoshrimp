@@ -10,7 +10,7 @@
     <name>SwarmJR</name>
 
     <properties>
-        <version.wildfly-swarm>1.0.0.Alpha4</version.wildfly-swarm>
+        <version.wildfly-swarm>1.0.0.Alpha5-SNAPSHOT</version.wildfly-swarm>
     </properties>
 
     <dependencies>

@@ -9,6 +9,6 @@ public class RubyMain {
     public static void main(String[] args) throws Exception {
         ScriptingContainer container = new ScriptingContainer();
 
-        container.runScriptlet("puts 'embedded' Ruby");
+        container.runScriptlet("puts \"'embedded' Ruby\"");
     }
 }
